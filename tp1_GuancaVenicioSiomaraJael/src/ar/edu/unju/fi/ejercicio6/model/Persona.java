@@ -26,7 +26,7 @@ public class Persona {
         this.provincia = "Jujuy";
     }
 
-    // Métodos accesores
+    // métodos accesores
     public String getDni() {
         return dni;
     }
@@ -59,7 +59,7 @@ public class Persona {
         this.provincia = provincia;
     }
 
-    // Métodos adicionales
+    // métodos adicionales
     public int calcularEdad() {
         LocalDate ahora = LocalDate.now();
         return ahora.getYear() - fechaNacimiento.getYear();
