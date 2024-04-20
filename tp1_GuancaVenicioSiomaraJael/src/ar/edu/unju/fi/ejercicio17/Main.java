@@ -17,14 +17,14 @@ public class Main {
         int opcion;
         do {
             System.out.println("\nMenú de opciones:");
-            System.out.println("1 - Alta de jugador");
-            System.out.println("2 - Mostrar los datos del jugador");
-            System.out.println("3 - Mostrar todos los jugadores ordenados por apellido");
-            System.out.println("4 - Modificar los datos de un jugador");
-            System.out.println("5 - Eliminar un jugador");
-            System.out.println("6 - Mostrar la cantidad total de jugadores");
-            System.out.println("7 - Mostrar la cantidad de jugadores que pertenecen a una nacionalidad");
-            System.out.println("8 - Salir");
+            System.out.println("Opción 1 - Alta de jugador");
+            System.out.println("Opción 2 - Mostrar los datos del jugador");
+            System.out.println("Opción 3 - Mostrar todos los jugadores ordenados por apellido");
+            System.out.println("Opción 4 - Modificar los datos de un jugador");
+            System.out.println("Opción 5 - Eliminar un jugador");
+            System.out.println("Opción 6 - Mostrar la cantidad total de jugadores");
+            System.out.println("Opción 7 - Mostrar la cantidad de jugadores que pertenecen a una nacionalidad");
+            System.out.println("Opción 8 - Salir");
             System.out.print("Ingrese una opción: ");
             opcion = scanner.nextInt();
             scanner.nextLine(); // saltos de línea

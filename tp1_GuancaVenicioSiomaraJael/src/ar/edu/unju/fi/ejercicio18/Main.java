@@ -23,15 +23,15 @@ public class Main {
         int opcion;
         do {
             System.out.println("\nMenú de opciones:");
-            System.out.println("1 - Alta de destino turístico");
-            System.out.println("2 - Mostrar todos los destinos turísticos");
-            System.out.println("3 - Modificar el país de un destino turístico");
-            System.out.println("4 - Limpiar el ArrayList de destinos turísticos");
-            System.out.println("5 - Eliminar un destino turístico");
-            System.out.println("6 - Mostrar los destinos turísticos ordenados por nombre");
-            System.out.println("7 - Mostrar todos los países");
-            System.out.println("8 - Mostrar los destinos turísticos de un país");
-            System.out.println("9 - Salir");
+            System.out.println("Opción 1 - Alta de destino turístico");
+            System.out.println("Opción 2 - Mostrar todos los destinos turísticos");
+            System.out.println("Opción 3 - Modificar el país de un destino turístico");
+            System.out.println("Opción 4 - Limpiar el ArrayList de destinos turísticos");
+            System.out.println("Opción 5 - Eliminar un destino turístico");
+            System.out.println("Opción 6 - Mostrar los destinos turísticos ordenados por nombre");
+            System.out.println("Opción 7 - Mostrar todos los países");
+            System.out.println("Opción 8 - Mostrar los destinos turísticos de un país");
+            System.out.println("Opción 9 - Salir");
             System.out.print("Ingrese una opción: ");
             opcion = scanner.nextInt();
             scanner.nextLine(); // salto de linea
