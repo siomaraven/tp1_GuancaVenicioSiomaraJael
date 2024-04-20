@@ -26,7 +26,7 @@ public class Main {
             System.out.println("Opción 1 - Alta de destino turístico");
             System.out.println("Opción 2 - Mostrar todos los destinos turísticos");
             System.out.println("Opción 3 - Modificar el país de un destino turístico");
-            System.out.println("Opción 4 - Limpiar el ArrayList de destinos turísticos");
+            System.out.println("Opción 4 - Limpiar la lista de destinos turísticos");
             System.out.println("Opción 5 - Eliminar un destino turístico");
             System.out.println("Opción 6 - Mostrar los destinos turísticos ordenados por nombre");
             System.out.println("Opción 7 - Mostrar todos los países");
@@ -49,7 +49,7 @@ public class Main {
                         break;
                     case 4:
                         destinos.clear();
-                        System.out.println("ArrayList de destinos turísticos limpiado correctamente.");
+                        System.out.println("El listado de destinos turísticos limpiado correctamente.");
                         break;
                     case 5:
                         eliminarDestinoTuristico(destinos, scanner);
@@ -64,7 +64,7 @@ public class Main {
                         mostrarDestinosPorPais(destinos, scanner);
                         break;
                     case 9:
-                        System.out.println("¡Hasta luego!");
+                        System.out.println("¡Hasta la próxima! Tenga buen día.");
                         break;
                     default:
                         System.out.println("Opción inválida. Por favor, ingrese una opción válida.");
