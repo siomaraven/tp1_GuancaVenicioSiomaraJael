@@ -6,7 +6,7 @@ public class Ejercicio14 {
 	public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // solicitamos al usuario que ingrese un número entero de rango entre [3, 10]
+        // solicitamos al usuario que ingrese un número entero de rango entre 3, 10
         int size;
         do {
             System.out.print("Ingrese cantidad de numéros de tipo entero que se encuentre entre 3 y 10: ");
