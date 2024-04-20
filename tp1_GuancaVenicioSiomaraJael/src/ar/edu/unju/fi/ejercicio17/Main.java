@@ -53,7 +53,7 @@ public class Main {
                         mostrarCantidadJugadoresNacionalidad(jugadores, scanner);
                         break;
                     case 8:
-                        System.out.println("¡Hasta luego!");
+                        System.out.println("¡Hasta la próxima! Tenga un buen día");
                         break;
                     default:
                         System.out.println("Opción inválida. Por favor, ingrese una opción válida.");
